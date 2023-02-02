@@ -5,6 +5,9 @@ import java.util.List;
 
 public class Start {
     public static void main(String[] args) {
+
+        System.out.println("-----------------Starting-------------------");
+
         List<Double> individualMarksListLisa = new ArrayList<>();
         individualMarksListLisa.add(9.64);
         individualMarksListLisa.add(8.54);
@@ -24,6 +27,8 @@ public class Start {
         System.out.println(lisa);
         System.out.println(jeremy);
         //TODO how to use the get method here?
+
+        System.out.println("--------------------------------------------");
 
     }
 }

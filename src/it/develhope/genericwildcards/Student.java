@@ -18,7 +18,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "The student " + studentName + " " + studentSurname + " has the a marks' average of " + marksAverage;
+        return "The student " + studentName + " " + studentSurname + " has a marks' average of " + marksAverage;
     }
 }
 
