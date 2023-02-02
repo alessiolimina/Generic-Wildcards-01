@@ -12,14 +12,13 @@ public class Student {
         this.studentSurname = surname;
         this.marksAverage = average;}
 
-    public static void getAverageMark (List <? extends Number> listOfMarks) {
-      double v = (listOfMarks.get(0).doubleValue() + listOfMarks.get(1).doubleValue()) / 2;
-        System.out.println(v);
+    public static double getAverageMark (List <? extends Number> listOfMarks) {
+      return (listOfMarks.get(0).doubleValue() + listOfMarks.get(1).doubleValue()) / 2;
     }
 
     @Override
     public String toString() {
-        return "The student " + studentName + studentSurname + " with marks' average " + marksAverage;
+        return "The student " + studentName + " " + studentSurname + " has the a marks' average of " + marksAverage;
     }
 }
 
