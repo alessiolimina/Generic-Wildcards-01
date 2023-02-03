@@ -20,13 +20,12 @@ public class Start {
         double jeremyAvg = Student.getAverageMark(projectMarksListJeremy);
 
         List<Student> listOfStudents = new ArrayList<>();
-        Student lisa = new Student("Lisa", "Stuart", lisaAvg );
+        Student lisa = new Student("Lisa", "Stuart", lisaAvg);
         Student jeremy = new Student("Jeremy", "Green", jeremyAvg);
         listOfStudents.add(lisa);
         listOfStudents.add(jeremy);
         System.out.println(lisa);
         System.out.println(jeremy);
-        //TODO how to use the get method here?
 
         System.out.println("--------------------------------------------");
 
